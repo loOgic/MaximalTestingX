@@ -1,0 +1,19 @@
+{
+    "name": "maximal-testing-x/cache",
+    "description": "Maximal testing x cache",
+    "type": "project",
+    "license": "proprietary",
+    "require": {
+        "php": "^7.4"
+    },
+    "require-dev": {
+        "codeception/codeception": "^4.0",
+        "codeception/module-phpbrowser": "^1.0.0",
+        "codeception/module-asserts": "^1.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "MaximalTestingX\\Cache\\": "src/"
+        }
+    }
+}
